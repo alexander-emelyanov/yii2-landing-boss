@@ -1,0 +1,21 @@
+{
+    "name": "alexander-emelyanov/yii2-landing-boss",
+    "description": "Asset bundle for landing pages. Retina ready, HTML5 & CSS3 (Bootstrap 3.1).",
+    "type": "yii2-asset-bundle",
+    "keywords": ["yii2", "yii 2", "landing", "asset bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Emelyanov",
+            "email": "alexander.emelyanov@outlook.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/alexander-emelyanov/yii2-landing-boss/issues?state=open",
+        "source": "https://github.com/alexander-emelyanov/yii2-landing-boss"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {"psr-4": {"AlexanderEmelyanov\\yii\\landing\\boss\\": ""}}
+}
