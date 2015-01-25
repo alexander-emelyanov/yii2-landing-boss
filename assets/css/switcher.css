@@ -1,0 +1,113 @@
+/* Main Style */
+.switcher h3 {
+    font-size: 13px;
+    margin: 5px 0;
+    color: #474646;
+    text-align: center;
+}
+.switcher {
+    background: #FBFBFB;
+    width: 160px;
+    position: fixed;
+    top: 100px;
+    z-index: 999999;
+    left: 0px;
+    border-radius: 0 0 4px 0;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.4);
+    box-shadow: 0px 0px 4px 0px rgba(51, 51, 51, 0.4);
+}
+.switcher h2 {
+    background: #474646;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    padding: 12px 0 13px;
+    text-align: center;
+}
+.switcher h2 a {
+    background: url("../images/switcher/switcher.png") no-repeat scroll left center transparent;
+    display: block;
+    height: 41px;
+    position: absolute;
+    right: -39px;
+    text-indent: -9999px;
+    top: 0;
+    width: 39px;
+    border-radius: 0 4px 4px 0;
+}
+.switcher .content {
+    padding: 5px 16px 16px 16px;
+    overflow: hidden;
+}
+.hide {
+    display: none; /* first load page enough */
+}
+
+/* Color Box */
+.styleswitch {
+    width: 35px;
+    height: 35px;
+    display: block;
+    cursor: pointer;
+    margin: 5px 14px;
+    float: left;
+}
+.styleswitch.selected { box-shadow: 0 0 0 3px #b7b7b7 !important; }
+
+.styleswitch#dark {
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+.styleswitch#light {
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #000;
+}
+.styleswitch#super_hero,
+.styleswitch#all_components {
+    margin: 5px 19px;
+    width: 90px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #2b3e50;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMmIzZTUwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMmIzZTUwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZDk1MzRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q5NTM0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(-45deg,  #2b3e50 0%, #2b3e50 50%, #d9534f 51%, #d9534f 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#2b3e50), color-stop(50%,#2b3e50), color-stop(51%,#d9534f), color-stop(100%,#d9534f));
+    background: -webkit-linear-gradient(-45deg,  #2b3e50 0%,#2b3e50 50%,#d9534f 51%,#d9534f 100%);
+    background: -o-linear-gradient(-45deg,  #2b3e50 0%,#2b3e50 50%,#d9534f 51%,#d9534f 100%);
+    background: -ms-linear-gradient(-45deg,  #2b3e50 0%,#2b3e50 50%,#d9534f 51%,#d9534f 100%);
+    background: linear-gradient(135deg,  #2b3e50 0%,#2b3e50 50%,#d9534f 51%,#d9534f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b3e50', endColorstr='#d9534f',GradientType=1 );
+}
+.styleswitch#turquoise { background-color: #1abc9c; }
+.styleswitch#green_sea { background-color: #16a085; }
+.styleswitch#sun_flower { background-color: #f1c40f; }
+.styleswitch#orange { background-color: #f39c12; }
+.styleswitch#emerald { background-color: #2ecc71; }
+.styleswitch#nephritis { background-color: #27ae60; }
+.styleswitch#carrot { background-color: #e67e22; }
+.styleswitch#pumpkin { background-color: #d35400; }
+.styleswitch#peter_river { background-color: #3498db; }
+.styleswitch#belize_hole { background-color: #2980b9; }
+.styleswitch#alizarin { background-color: #e74c3c; }
+.styleswitch#pomegranate { background-color: #c0392b; }
+.styleswitch#amethyst { background-color: #9b59b6; }
+.styleswitch#wisteria { background-color: #8e44ad; }
+.styleswitch#silver { background-color: #bdc3c7; }
+.styleswitch#concrete { background-color: #95a5a6; }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .switcher {
+        display: none; !important;
+    }
+}

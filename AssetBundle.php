@@ -15,12 +15,53 @@ class AssetBundle extends \yii\web\AssetBundle{
     /**
      * @inherit
      */
-    public $sourcePath = '@vendor/alexander-emelyanov/yii2-landing-boss';
+    public $sourcePath = '@vendor/alexander-emelyanov/yii2-landing-boss/assets';
+
+//    public $basePath = '@vendor/alexander-emelyanov/yii2-landing-boss';
+
+//    public $baseUrl = '@web';
 
     /**
      * @inherit
      */
     public $css = [
-        'css/boss.css',
+        'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700',
+        'css/bootstrap.min.css',
+        'css/font-awesome.min.css',
+        'css/vendor/jquery.circliful.min.css',
+        'css/vendor/slick.min.css',
+        'css/vendor/blueimp-gallery.min.css',
+        'css/main.min.css',
+        'css/all_components.min.css',
+        'css/switcher.css',
+    ];
+
+    /**
+     * @inherit
+     */
+    public $js = [
+        // jQuery
+        'https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js',
+        // Bootstrap
+        'js/bootstrap.min.js',
+        // Retina Graphics
+        'js/vendor/retina.min.js',
+        // Nicescroll Scrollbars
+        'js/vendor/jquery.nicescroll.min.js',
+        // Circliful Circle Statistics
+        'js/vendor/circles.min.js',
+        // Slick Carousel
+        'js/vendor/slick.min.js',
+        // BlueImp Gallery Lightbox
+        'js/vendor/jquery.blueimp-gallery.min.js',
+        // Google map
+        'https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false',
+        'js/google_map.min.js',
+        'js/vendor/simple.min.js',
+        // Theme switcher
+        'js/jquery.cookie.js',
+        'js/styleswitch.js',
+        // Default General Settings
+        'js/main.min.js',
     ];
 } 
