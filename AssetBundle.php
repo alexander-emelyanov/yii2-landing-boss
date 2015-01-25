@@ -17,10 +17,6 @@ class AssetBundle extends \yii\web\AssetBundle{
      */
     public $sourcePath = '@vendor/alexander-emelyanov/yii2-landing-boss/assets';
 
-//    public $basePath = '@vendor/alexander-emelyanov/yii2-landing-boss';
-
-//    public $baseUrl = '@web';
-
     /**
      * @inherit
      */
@@ -33,7 +29,6 @@ class AssetBundle extends \yii\web\AssetBundle{
         'css/vendor/blueimp-gallery.min.css',
         'css/main.min.css',
         'css/all_components.min.css',
-        'css/switcher.css',
     ];
 
     /**
@@ -58,9 +53,6 @@ class AssetBundle extends \yii\web\AssetBundle{
         'https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false',
         'js/google_map.min.js',
         'js/vendor/simple.min.js',
-        // Theme switcher
-        'js/jquery.cookie.js',
-        'js/styleswitch.js',
         // Default General Settings
         'js/main.min.js',
     ];
